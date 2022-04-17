@@ -8,6 +8,7 @@ import (
 
 func main() {
 	//Get a greeting message and print it.
-	message := greetings.Hello("Bertrand")
+	// TODO: implement error checking
+	message, _ := greetings.Hello("Bertrand")
 	fmt.Println(message)
 }
